@@ -1,0 +1,31 @@
+section{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.sides{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.responsive-bg{
+    position: relative;
+    background: url('/assets/images/header1.jpg');
+    background-size: cover;
+    height: 0;
+    width: 100%;
+    padding-bottom: 42%; /* = image.height / image.width * 100% */
+}
+
+.header-title{
+    position: absolute;
+    bottom: 2rem;
+    left:0rem;
+    width: auto;
+    height: 6.5rem;
+    font-size: 3.4rem;
+    text-align: right;
+    background: rgba(204, 153, 51, 0.75);
+    padding-right:2rem;
+    padding-left: 5rem;
+}
