@@ -10,6 +10,7 @@ export class BooksIndexComponent implements OnInit {
 
   constructor(private bookService:BooksService) { }
 
+  //to get bestseller's id from backend 
   bestsellerId:any;
   ngOnInit(): void {
     // this.bestsellerId=this.bookService.getBestseller().subscribe(
